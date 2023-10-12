@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Da Money</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Count the Money:</h1>
+        <div class="total-counter">
+            <h2>Total Money Counter: $<span id="totalCount">0.00</span></h2>
+        </div>
+        <div class="coin-group">
+            <img class="coin" src="Penny.png">
+            <div class="coin-info">
+                <span id="pennyCount">0</span> Pennies
+            </div>
+            <button onclick="subtractPenny()">Subtract Penny</button>
+            <button onclick="addPenny()">Add Penny</button>
+        </div>
+        <div class="coin-group">
+            <img class="coin" src="Nickel.jpg">
+            <div class="coin-info">
+                <span id="nickelCount">0</span> Nickels
+            </div>
+            <button onclick="subtractNickel()">Subtract Nickel</button>
+            <button onclick="addNickel()">Add Nickel</button>
+        </div>
+        <div class="coin-group">
+            <img class="coin" src="Dime.png">
+            <div class="coin-info">
+                <span id="dimeCount">0</span> Dimes
+            </div>
+            <button onclick="subtractDime()">Subtract Dime</button>
+            <button onclick="addDime()">Add Dime</button>
+        </div>
+        <div class="coin-group">
+            <img class="coin" src="Quarter.jpg">
+            <div class="coin-info">
+                <span id="quarterCount">0</span> Quarters
+            </div>
+            <button onclick="subtractQuarter()">Subtract Quarter</button>
+            <button onclick="addQuarter()">Add Quarter</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
